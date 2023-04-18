@@ -41,6 +41,10 @@ jobs:
 
     - name: Set up Datacube and test
       run: |
+
+        wget --no-verbose https://www.dropbox.com/s/vj2rqkwy9al144w/tide_models.zip?dl=1 -O tide_models.zip
+        unzip -q tide_models.zip
+
         sudo chown -R 1000:100 ./dea-notebooks
         cd ./dea-notebooks 
         CURRENT_UID=1000:100 docker-compose up -d
