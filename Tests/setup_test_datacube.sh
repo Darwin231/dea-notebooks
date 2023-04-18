@@ -26,5 +26,46 @@ done
 
 datacube product list
 
-# Index Landsat
-s3-to-dc 's3://dea-public-data/baseline/ga_ls8c_ard_3/090/084/2020/*/*/*.json' --no-sign-request --skip-lineage --stac 'ga_ls8c_ard_3'
+# Index Landsat 8
+s3-to-dc 's3://dea-public-data/baseline/ga_ls8c_ard_3/089/079/2020/*/*/*.json' --no-sign-request --skip-lineage --stac 'ga_ls8c_ard_3'  # Brisbane, 2020
+s3-to-dc 's3://dea-public-data/baseline/ga_ls8c_ard_3/095/082/2020/*/*/*.json' --no-sign-request --skip-lineage --stac 'ga_ls8c_ard_3'  # Menindee 1, 2020
+s3-to-dc 's3://dea-public-data/baseline/ga_ls8c_ard_3/095/083/2020/*/*/*.json' --no-sign-request --skip-lineage --stac 'ga_ls8c_ard_3'  # Menindee 2, 2020
+s3-to-dc 's3://dea-public-data/baseline/ga_ls8c_ard_3/090/084/2020/*/*/*.json' --no-sign-request --skip-lineage --stac 'ga_ls8c_ard_3'  # Canberra 1, 2020
+s3-to-dc 's3://dea-public-data/baseline/ga_ls8c_ard_3/090/085/2020/*/*/*.json' --no-sign-request --skip-lineage --stac 'ga_ls8c_ard_3'  # Canberra 2, 2020
+
+# Index Landsat 7
+s3-to-dc 's3://dea-public-data/baseline/ga_ls7e_ard_3/089/079/2020/*/*/*.json' --no-sign-request --skip-lineage --stac 'ga_ls7e_ard_3'  # Brisbane, 2020
+s3-to-dc 's3://dea-public-data/baseline/ga_ls7e_ard_3/095/082/2020/*/*/*.json' --no-sign-request --skip-lineage --stac 'ga_ls7e_ard_3'  # Menindee 1, 2020
+s3-to-dc 's3://dea-public-data/baseline/ga_ls7e_ard_3/095/083/2020/*/*/*.json' --no-sign-request --skip-lineage --stac 'ga_ls7e_ard_3'  # Menindee 2, 2020
+s3-to-dc 's3://dea-public-data/baseline/ga_ls7e_ard_3/090/084/2020/*/*/*.json' --no-sign-request --skip-lineage --stac 'ga_ls7e_ard_3'  # Canberra 1, 2020
+s3-to-dc 's3://dea-public-data/baseline/ga_ls7e_ard_3/090/085/2020/*/*/*.json' --no-sign-request --skip-lineage --stac 'ga_ls7e_ard_3'  # Canberra 2, 2020
+
+# Index Sentinel-2A
+s3-to-dc 's3://dea-public-data/baseline/ga_s2am_ard_3/56/JNQ/2020/*/*/*/*.json' --no-sign-request --skip-lineage --stac 'ga_s2am_ard_3'  # Brisbane, 2020
+s3-to-dc 's3://dea-public-data/baseline/ga_s2am_ard_3/54/HXK/2020/*/*/*/*.json' --no-sign-request --skip-lineage --stac 'ga_s2am_ard_3'  # Menindee, 2020
+s3-to-dc 's3://dea-public-data/baseline/ga_s2am_ard_3/55/HFB/2020/*/*/*/*.json' --no-sign-request --skip-lineage --stac 'ga_s2am_ard_3'  # Canberra 1, 2020
+s3-to-dc 's3://dea-public-data/baseline/ga_s2am_ard_3/55/HFA/2020/*/*/*/*.json' --no-sign-request --skip-lineage --stac 'ga_s2am_ard_3'  # Canberra 2, 2020
+s3-to-dc 's3://dea-public-data/baseline/ga_s2am_ard_3/55/HGB/2020/*/*/*/*.json' --no-sign-request --skip-lineage --stac 'ga_s2am_ard_3'  # Canberra 3, 2020
+s3-to-dc 's3://dea-public-data/baseline/ga_s2am_ard_3/55/HGA/2020/*/*/*/*.json' --no-sign-request --skip-lineage --stac 'ga_s2am_ard_3'  # Canberra 4, 2020
+
+# Index Sentinel-2B
+s3-to-dc 's3://dea-public-data/baseline/ga_s2bm_ard_3/56/JNQ/2020/*/*/*/*.json' --no-sign-request --skip-lineage --stac 'ga_s2bm_ard_3'  # Brisbane, 2020
+s3-to-dc 's3://dea-public-data/baseline/ga_s2bm_ard_3/54/HXK/2020/*/*/*/*.json' --no-sign-request --skip-lineage --stac 'ga_s2bm_ard_3'  # Menindee, 2020
+s3-to-dc 's3://dea-public-data/baseline/ga_s2bm_ard_3/55/HFB/2020/*/*/*/*.json' --no-sign-request --skip-lineage --stac 'ga_s2bm_ard_3'  # Canberra 1, 2020
+s3-to-dc 's3://dea-public-data/baseline/ga_s2bm_ard_3/55/HFA/2020/*/*/*/*.json' --no-sign-request --skip-lineage --stac 'ga_s2bm_ard_3'  # Canberra 2, 2020
+s3-to-dc 's3://dea-public-data/baseline/ga_s2bm_ard_3/55/HGB/2020/*/*/*/*.json' --no-sign-request --skip-lineage --stac 'ga_s2bm_ard_3'  # Canberra 3, 2020
+s3-to-dc 's3://dea-public-data/baseline/ga_s2bm_ard_3/55/HGA/2020/*/*/*/*.json' --no-sign-request --skip-lineage --stac 'ga_s2bm_ard_3'  # Canberra 4, 2020
+
+# Index WO
+s3-to-dc 's3://dea-public-data/derivative/ga_ls_wo_3/1-6-0/089/079/2020/*/*/*.json' --no-sign-request --skip-lineage --stac 'ga_ls_wo_3'  # Brisbane, 2020
+s3-to-dc 's3://dea-public-data/derivative/ga_ls_wo_3/1-6-0/095/082/2020/*/*/*.json' --no-sign-request --skip-lineage --stac 'ga_ls_wo_3'  # Menindee 1, 2020
+s3-to-dc 's3://dea-public-data/derivative/ga_ls_wo_3/1-6-0/095/083/2020/*/*/*.json' --no-sign-request --skip-lineage --stac 'ga_ls_wo_3'  # Menindee 2, 2020
+s3-to-dc 's3://dea-public-data/derivative/ga_ls_wo_3/1-6-0/090/084/2020/*/*/*.json' --no-sign-request --skip-lineage --stac 'ga_ls_wo_3'  # Canberra 1, 2020
+s3-to-dc 's3://dea-public-data/derivative/ga_ls_wo_3/1-6-0/090/085/2020/*/*/*.json' --no-sign-request --skip-lineage --stac 'ga_ls_wo_3'  # Canberra 2, 2020
+
+# Index FC
+s3-to-dc 's3://dea-public-data/derivative/ga_ls_fc_3/2-5-0/089/079/2020/*/*/*.json' --no-sign-request --skip-lineage --stac 'ga_ls_fc_3'  # Brisbane, 2020
+s3-to-dc 's3://dea-public-data/derivative/ga_ls_fc_3/2-5-0/095/082/2020/*/*/*.json' --no-sign-request --skip-lineage --stac 'ga_ls_fc_3'  # Menindee 1, 2020
+s3-to-dc 's3://dea-public-data/derivative/ga_ls_fc_3/2-5-0/095/083/2020/*/*/*.json' --no-sign-request --skip-lineage --stac 'ga_ls_fc_3'  # Menindee 2, 2020
+s3-to-dc 's3://dea-public-data/derivative/ga_ls_fc_3/2-5-0/090/084/2020/*/*/*.json' --no-sign-request --skip-lineage --stac 'ga_ls_fc_3'  # Canberra 1, 2020
+s3-to-dc 's3://dea-public-data/derivative/ga_ls_fc_3/2-5-0/090/085/2020/*/*/*.json' --no-sign-request --skip-lineage --stac 'ga_ls_fc_3'  # Canberra 2, 2020
